@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ross_Developer | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="ASSETS/CSS/punk.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <div class="cyber-cursor"></div>
+    <div class="cyber-cursor-follower"></div>
+
+    <canvas id="cyber-canvas"></canvas>
+    
+    <div class="scroll-progress"></div>
+
+    <!-- Header -->
+    <header class="cyber-header" aria-label="Navigazione principale">
+        <div class="brand">
+            <span class="brand-mark">RD</span>
+            <span class="brand-name">ROSS_DEVELOPER</span>
+        </div>
+        <nav class="cyber-nav" aria-label="Sezioni">
+            <a href="#about" class="nav-link">Profilo</a>
+            <a href="#skills" class="nav-link">Stack</a>
+            <a href="#projects" class="nav-link">Progetti</a>
+            <a href="#contact" class="nav-link">Contatti</a>
+        </nav>
+        <a class="header-cta" href="#contact">SCRIVIMI</a>
+    </header>
+
+    <main>
+        <section class="content-section" id="hero">
+            <canvas id="trail-canvas" aria-hidden="true"></canvas>
+            <div class="hero-content">
+                <h1 class="glitch">ROSS_DEVELOPER</h1>
+                <p>> STATUS: WEB_DEVELOPER_ACTIVE</p>
+                <div class="scroll-indicator">SCROLL_TO_INITIALIZE</div>
+            </div>
+        </section>
+
+        <section class="content-section" id="about">
+            <div class="glass-card row-layout">
+                <div class="text-col">
+                    <h2>01_PROFILO</h2>
+                    <p>Sviluppatore Web con focus su <strong>Front-End</strong> e interfacce moderne: trasformo requisiti in UI veloci, accessibili e responsive.</p>
+                    <p class="subtext">Stack preferito: React, JavaScript ES6+, CSS moderno, animazioni (GSAP/Three.js) e ottimizzazione performance.</p>
+                </div>
+                <div class="img-col">
+                    <div class="photo-wrapper">
+                        <img src="ASSETS/MEDIA/foto mazepegoulsite.jpeg" alt="Profile" class="profile-pic">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section" id="skills">
+            <div class="glass-card">
+                <h2>02_TECH_STACK</h2>
+
+                <div class="tag-group">
+                    <div class="tag-title">FRONT-END</div>
+                    <div class="grid-box">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript ES6+</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Bootstrap</span>
+                    </div>
+                </div>
+
+                <div class="tag-group">
+                    <div class="tag-title">UI / MOTION</div>
+                    <div class="grid-box">
+                        <span class="tag">GSAP</span>
+                        <span class="tag">Three.js</span>
+                        <span class="tag">Responsive Design</span>
+                        <span class="tag">Accessibility</span>
+                    </div>
+                </div>
+
+                <div class="tag-group">
+                    <div class="tag-title">TOOLING</div>
+                    <div class="grid-box">
+                        <span class="tag">Git</span>
+                        <span class="tag">REST API</span>
+                        <span class="tag">Performance</span>
+                        <span class="tag">SEO Basics</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section" id="services">
+            <div class="glass-card">
+                <h2>03_SERVIZI</h2>
+                <ul class="cyber-list">
+                    <li>Landing page e siti vetrina (responsive + SEO base)</li>
+                    <li>Single Page App in React (componenti riutilizzabili + state management)</li>
+                    <li>UI interattive con animazioni (GSAP / Three.js)</li>
+                    <li>Ottimizzazione performance (LCP/CLS, bundle, lazy loading)</li>
+                    <li>Manutenzione, refactor e integrazione API</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="content-section" id="projects">
+            <div class="glass-card">
+                <h2>04_PROGETTI</h2>
+                <div class="project-list">
+                    <div class="project-item">
+                        <h3>PORTFOLIO 3D</h3>
+                        <p>Landing/portfolio con effetti cyber, Three.js e micro-interazioni per una UX memorabile.</p>
+                    </div>
+                    <div class="project-item">
+                        <h3>DASHBOARD ANALYTICS</h3>
+                        <p>UI data-driven (tabelle, grafici, filtri) con integrazione API e focus su performance.</p>
+                    </div>
+                    <div class="project-item">
+                        <h3>ECOMMERCE UI</h3>
+                        <p>Catalogo prodotti, carrello e checkout: componenti modulari, responsive e accessibili.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section" id="journey">
+            <div class="glass-card">
+                <h2>05_PERCORSO</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-meta">2025 — OGGI</div>
+                        <div class="timeline-body">
+                            <div class="timeline-title">Front-End Web Developer</div>
+                            <div class="timeline-text">Sviluppo interfacce, componenti React, integrazioni API e ottimizzazioni performance.</div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-meta">2024</div>
+                        <div class="timeline-body">
+                            <div class="timeline-title">Progetti personali & studio</div>
+                            <div class="timeline-text">Approfondimento JS/React, animazioni (GSAP) e 3D (Three.js).</div>
+                        </div>
+                    </div>
+                </div>
+                <p class="subtext">Suggerimento: sostituisci queste voci con la tua esperienza reale (aziende, ruoli, risultati).</p>
+            </div>
+        </section>
+
+        <section class="content-section" id="testimonials">
+            <div class="glass-card">
+                <h2>06_FEEDBACK</h2>
+                <p><i>"Visionario. Ha portato il nostro brand in una nuova dimensione digitale."</i></p>
+                <p class="author">- Tech Lead, Nova Corp</p>
+            </div>
+        </section>
+
+        <section class="content-section" id="contact">
+            <div class="glass-card">
+                <h2>07_CONTATTI</h2>
+                <p>Invia pacchetto dati a: <strong>info@rossdeveloper.net</strong></p>
+                <div class="contact-meta">
+                    <p><span class="label">PEC:</span> <strong>INSERISCI_LA_TUA_PEC@PEC.IT</strong></p>
+                </div>
+                <div class="contact-actions">
+                    <button class="cyber-btn">ESTABLISH_CONNECTION</button>
+                    <a class="cyber-link" href="#" aria-label="GitHub">GITHUB_PROFILE</a>
+                    <a class="cyber-link" href="#" aria-label="LinkedIn">LINKEDIN_PROFILE</a>
+                </div>
+                <!-- NOTE: Sostituisci i placeholder con PEC, luogo e link reali. -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Back to top -->
+    <button id="backToTop" class="back-to-top" type="button" aria-label="Torna su" title="Torna su">↑</button>
+
+    <script type="module" src="ASSETS/JS/punk.js"></script>
+</body>
+</html>
